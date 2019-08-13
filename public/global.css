@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    height: 100%;
+}
+
+.ace_editor:not(.ace_autocomplete) .ace_line {
+    color: #d50000;
+}
+
+.ace_editor:not(.ace_autocomplete) .ace_line > * {
+    color: black;
+}
+
+.ace_field.ace_string.ace_hql {
+    color: #2196F3 !important;
+}
+
+.ace_field.ace_number.ace_hql {
+    color: #673AB7 !important;
+}
+
+.ace_keyword {
+    color: #ff8500 !important;
+}
+
+.ace_keyword.ace_operator {
+    color: #795548 !important;
+}
+
+.ace_string, .ace_constant.ace_numeric {
+    color: #6bb359 !important;
+}
+
+.ace_illegalField.ace_hql {
+    color: #d50000 !important;
+}
